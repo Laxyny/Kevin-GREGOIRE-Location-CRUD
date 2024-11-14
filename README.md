@@ -7,7 +7,7 @@ Pour lancer le projet, il suffit de lancer la commande suivante à la racine du 
 La sécurité n'est pas activé, mais dans le cas ou elle est active il est possible de s'authentifier avec les identifiants suivants :
 
 - username : admin
-- password : paswword
+- password : password
 
 
 Kevin GREGOIRE
