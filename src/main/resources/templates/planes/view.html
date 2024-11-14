@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Détails de l'Avion</title>
+</head>
+<body>
+    <h1>Détails de l'Avion</h1>
+    <p>ID: <span th:text="${plane.id}"></span></p>
+    <p>Modèle: <span th:text="${plane.model}"></span></p>
+    <p>Marque: <span th:text="${plane.brand}"></span></p>
+    <p>Date de sortie: <span th:text="${plane.releaseDate}"></span></p>
+    <p>Statut: <span th:text="${plane.status}"></span></p>
+    <a th:href="@{/planes}">Retour à la liste</a>
+</body>
+</html>
